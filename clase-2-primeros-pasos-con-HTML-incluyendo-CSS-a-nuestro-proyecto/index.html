@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primeros pasos con HTML & Incluyendo CSS a nuestro proyecto</title>
+  <link rel="shortcut icon" href="./assets/images/logo-favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="https://www.coderhouse.com/online/desarrollo-web-online">Enlace absoluto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <img src="./assets/images/hotel-1.jpg" alt="foto del hotel desde la piscina">
+
+    <img
+      src="https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/900/450/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/resorts/pixar-pier-hotel/pph-exterior-3-16x9.jpg?2024-01-16T19:57:28+00:00"
+      alt="">
+
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/eAW1TNnjrzs"
+      title="Video promocional para hotel" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- Listas -->
+    <ul>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+    </ul>
+
+    <ol>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+    </ol>
+
+    <!-- Atributos -->
+    <!-- - `disc`: Viñetas redondas (por defecto)
+    - `circle`: Viñetas circulares
+    - `square`: Viñetas cuadradas -->
+    <ul type="circle">
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
+    <ol start="3">
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+    <ol reversed>
+      <li>Item 3</li>
+      <li>Item 2</li>
+      <li>Item 1</li>
+  </ol>
+
+  <!-- Formularios -->
+  <form action="./procesar.php" method="post" enctype="text/plain">
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre">
+    <label for="correo">Correo</label>
+    <input type="email" name="correo" id="correo">
+    <!-- Sexo -->
+    <label for="sexo">Sexo</label>
+    <input type="radio" name="sexo" id="sexo" value="masculino"> Masculino
+    <input type="radio" name="sexo" id="sexo" value="femenino"> Femenino
+    <!-- Pais -->
+    <label for="pais">País</label>
+    <select name="pais" id="pais">
+      <option value="argentina">Argentina</option>
+      <option value="brasil">Brasil</option>
+      <option value="chile">Chile</option>
+      <option value="uruguay">Uruguay</option>
+    </select>
+
+    <!-- buttons -->
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar">
+    <input type="button" value="Sin Acciones">
+  </form>
+  
+
+
+
+  </main>
+</body>
+
+</html>

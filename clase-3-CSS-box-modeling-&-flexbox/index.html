@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <!-- Siempre dentro del head -->
+  <link rel="shortcut icon" href="./assets/images/logo-favicon.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+  <!-- Aca debe ir el link al css -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <h1 id="titulo-main" class="">Home</h1>
+  <a href="./pages/contacto.html">Contacto</a>
+  <a href="https://www.coderhouse.com/ar/" target="_blank">CoderHouse</a>
+  <a href="#footer">Footer</a>
+  <a href="./pages/nosotros.html">Nosotros</a>
+  <a href="https://github.com/humbertodrc" target="_blank">Mi Github</a>
+  <a href="#productos">Productos</a>
+
+  <section class="main-section" id="section">
+    <p class="parrafo parrafo1">Este es un parrafo que voy a cambiar el color de la letra con estilos en linea</p>
+
+    <p class="parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus ea nobis illo illum
+      consequatur molestias beatae ipsam earum quisquam doloribus ullam, repudiandae aliquid aut nisi sunt voluptatem
+      corporis quasi excepturi.</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit eaque distinctio error dolore aspernatur
+      voluptatum officiis voluptate magni illo corporis, consequatur minima consectetur necessitatibus reprehenderit
+      odit voluptates doloribus molestiae! Expedita.</p>
+  </section>
+
+  <section class="clase1 clase2 clase3 clase4"></section>
+
+  <a href="" class="food"></a>
+
+  <section class="section">
+    <a href="" class="enlace"></a>
+  </section>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nihil natus, maiores officia dolor obcaecati
+    sint reprehenderit quae odit error. Id quaerat quis fugit minus eum dolorem adipisci, tenetur illo.</p>
+
+  <!-- <img src="./assets/images/hotel-1.jpg" alt="Foto Hotel Hilton desde la piscina">
+
+  <iframe 
+    src="https://www.youtube.com/embed/eAW1TNnjrzs" 
+    width="1280" 
+    height="720" 
+    title="Video promocional para hotel" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen
+    ></iframe> -->
+
+  <!-- Listas -->
+
+  <!-- Lista ordenada lleva un seria de pasos en un orden logico -->
+  <ol>
+    <li>Pasos 1</li>
+    <li>Pasos 2</li>
+    <li>Pasos 3</li>
+    <li>Pasos 4</li>
+  </ol>
+
+  <!-- Listas que no llevan un orden logico -->
+  <ul type="square">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+  </ul>
+
+  <ol start="5">
+    <li>Pasos 5</li>
+    <li>Pasos 6</li>
+    <li>Pasos 7</li>
+    <li>Pasos 8</li>
+  </ol>
+
+  <ol reversed>
+    <li>Pasos 1</li>
+    <li>Pasos 2</li>
+    <li>Pasos 3</li>
+    <li>Pasos 4</li>
+  </ol>
+
+  <ul>
+    <li>item 2</li>
+    <li>item 3</li>
+    <ol>
+      <li>item4</li>
+      <li>item6</li>
+      <ul>
+        <li>item7</li>
+        <li>item8</li>
+      </ul>
+    </ol>
+  </ul>
+
+  <form action="" method="post" enctype="multipart/form-data">
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+    <label for="apellido">Apellido</label>
+    <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+
+    <label for="sexo">Sexo</label>
+    <input type="radio" name="sexo" id="sexo" value="masculino"> Masculino
+    <input type="radio" name="sexo" id="sexo" value="femenino"> Femenino
+    <input type="radio" name="sexo" id="sexo" value="otro"> Otro
+
+    <input type="color" name="" id="">
+
+    <label for="pais">País</label>
+    <select name="pais" id="pais">
+      <option value="argentina">Argentina</option>
+      <option value="brasil">Brasil</option>
+      <option value="chile">Chile</option>
+      <option value="uruguay">Uruguay</option>
+    </select>
+
+    <label for="mensaje">Mensaje</label>
+    <textarea name="mensaje" id="mensaje" cols="30" rows="10" maxlength="10" minlength="2"></textarea>
+
+    <!-- 3 tipos de buttons -->
+    <input type="submit" value="Enviar Formulario">
+    <input type="reset" value="Limpiar los campos">
+    <input type="button" value="Para se usado con JS">
+  </form>
+
+  <br>
+  <br>
+  <br>
+
+  <form action="">
+    <fieldset>
+      <legend>Titulo del Formulario</legend>
+      <label for="nombre2">Nombre</label>
+      <input type="text" name="nombre2" id="nombre2">
+    </fieldset>
+  </form>
+
+  <br>
+  <br>
+  <br>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Talla</th> <!-- th es para las cabeceras de la tabla -->
+        <th>Descripcion</th>
+        <th>Precio</th>
+        <th>Cantidad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Fila 1 -->
+      <tr> <!-- tr es para las filas de la tabla -->
+        <td>M</td> <!-- td es para las celdas de la tabla -->
+        <td>Remera azu</td>
+        <td>100</td>
+        <td>5</td>
+      </tr>
+      <!-- Fila 2 -->
+      <tr>
+        <td>L</td>
+        <td>Remera blanca</td>
+        <td>150</td>
+        <td>3</td>
+      </tr>
+      <!-- Fila 3 -->
+      <tr>
+        <td>XXL</td>
+        <td>Camisa negra</td>
+        <td>300</td>
+        <td>2</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <footer>
+    pie de pagina
+  </footer>
+
+  <header>
+    Encabezado
+  </header>
+  <main>
+    <!-- Contenido principal -->
+    <section></section>
+    <article></article>
+    <aside></aside>
+    <footer></footer>
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+
+
+.padre{
+  width: 100%;
+  height: 600px;
+  background-color: bisque;
+  border: 5px solid red;
+
+  /* Las propiedades de Flex van al padre */
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* flex-flow: row wrap; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.padre div{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.hijo1{
+  background-color: red;
+  order: 2;
+}
+
+.hijo2{
+  background-color: blue;
+  order: 1;
+}
+
+.hijo3{
+  background: #5462F1;
+  background: linear-gradient(135deg, #5462F1, #E8290F);
+  order: 3;
+}
+
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=5462f1&c2=e8290f&gt=l&gd=dtl
+*/
