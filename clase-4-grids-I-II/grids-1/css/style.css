@@ -1,0 +1,128 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #1a1a1a;
+}
+
+.intro {
+	background-color: #f4ff80;
+	text-align: center;
+	padding: 5rem;
+}
+.intro h1 {
+	margin: 0;
+}
+
+h1,
+h2 {
+	text-align: center;
+	margin: 5rem 0;
+}
+
+h2 {
+	color: #fff;
+}
+
+.contenedor {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.box {
+	background-color: #f4ff80;
+    border: 1px solid #000;
+	font-size: 4rem;
+	/* padding: 2rem; */
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	/* margin-bottom: 2rem; */
+}
+
+/* Uso de Grid */
+
+/* Habilitar grid */
+.grid-1{
+    display: grid;
+}
+
+/* Definir columnas */
+.grid-2{
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+
+/* Definir filas */
+.grid-3{
+    display: grid;
+    grid-template-rows: 320px 320px;
+}
+
+/* Difinir arear */
+.grid-4{
+    display: grid;
+    height: 700px;
+    grid-template-areas: 
+    "nav header header"
+    "nav principal aside"
+    "nav principal aside"
+    "footer footer footer";
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 100px 1fr 1fr 100px;
+}
+
+.header{
+    grid-area: header;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.aside{
+    grid-area: aside;
+}
+
+.principal{
+    grid-area: principal;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+/* Propiedades a los hijos */
+.grid-5{
+    height: 600px;
+    width: 1000px;
+    display: grid;
+    /* Para que funcione las columnas y row deben tener un tamaño fijo */
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    border: 3px solid red;
+
+    /* Para explicar los hijos desde el padre en el eje x */
+    justify-items: start;
+    /* Para explicar los hijos desde el padre en el eje y */
+    align-items: start;
+
+    /* Para alinear el grid en el eje x */
+    justify-content: center;
+    /* Para alinear el grid en el eje y */
+    align-content: center;
+}
+
+/* Pisar el tamaño de los hijos */
+.grid-5 div{
+    width: 80px;
+    height: 100px;
+}
+
+/* Alinear un hijo */
+.hijo{
+    justify-self: end;
+    align-self: end;
+}
