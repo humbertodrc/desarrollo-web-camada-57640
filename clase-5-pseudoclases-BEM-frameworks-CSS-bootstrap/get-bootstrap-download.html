@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Link del css de bootstrap en mi proyecto -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- Aca va mi css -->
+  <link rel="stylesheet" href="./css/flex.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+
+        <div>
+          <!-- Logo de mi pagina -->
+          <a class="navbar-brand" href="#">Logo</a>
+
+          <!-- Menu hamburguesa -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <!-- Todos los enlaces de mi pagina -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav d-flex justify-content-end w-100 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Galeria</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="flex-container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+    <div>11</div>
+    <div>12</div>
+  </div>
+
+  <h1>Bootstrap en local</h1>
+  <!-- Este es solo el grid de Boostarp -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nemo expedita nulla neque sed deleniti, quos
+          consequatur quisquam perferendis doloribus quia, nam eligendi incidunt officia enim possimus. Tempore, libero
+          voluptatum.</p>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-8">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nemo expedita nulla neque sed deleniti, quos
+          consequatur quisquam perferendis doloribus quia, nam eligendi incidunt officia enim possimus. Tempore, libero
+          voluptatum.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Typografias -->
+  <h1>h1. Bootstrap heading</h1>
+  <h2>h2. Bootstrap heading</h2>
+  <h3>h3. Bootstrap heading</h3>
+  <h4>h4. Bootstrap heading</h4>
+  <h5>h5. Bootstrap heading</h5>
+  <h6>h6. Bootstrap heading</h6>
+
+
+  <h1>Bootstrap heading</h1>
+  <h2>Bootstrap heading</h2>
+  <h3>Bootstrap heading</h3>
+  <h4>Bootstrap heading</h4>
+  <h5>Bootstrap heading</h5>
+  <h6 class="h2">Bootstrap heading</h6>
+
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsa delectus laudantium, quis at fugit, quod atque
+    accusamus ipsam perspiciatis, ut veniam ratione. Quibusdam magnam ex <span class="text-body-secondary">praesentium
+      voluptatum laborum</span> eos.</p>
+
+  <h1 class="display-1">Display 1</h1>
+  <h1 class="display-2">Display 2</h1>
+  <h1 class="display-3">Display 3</h1>
+  <h1 class="display-4">Display 4</h1>
+  <h1 class="display-5">Display 5</h1>
+  <h1 class="display-6">Display 6</h1>
+
+  <h2 class="display-3 text-danger">Hola</h2>
+
+  <p class="lead">
+    This is a lead paragraph. It stands out from regular paragraphs.
+  </p>
+
+  <p class="text-decoration-line-through">Humberto</p>
+
+  <blockquote class="blockquote">
+    <p>A well-known quote, contained in a blockquote element.</p>
+  </blockquote>
+
+  <!-- Tabla con Boostrap -->
+  <div class="container">
+    <table class="table table-dark table-hover">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Edad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Carlos</td>
+          <td>Tevez</td>
+          <td>37</td>
+        </tr>
+        <tr>
+          <td>Lionel</td>
+          <td>Messi</td>
+          <td>34</td>
+        </tr>
+        <tr>
+          <td>Paulo</td>
+          <td>Dybala</td>
+          <td>27</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Formularios -->
+  <div class="container my-5">
+    <form action="">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="" class="form-label">Mi Label</label>
+        <input type="text" class="form-control form-control-sm" placeholder="mi input">
+      </div>
+      <div class="mb-3">
+        <label for="formFile" class="form-label">Default file input example</label>
+        <input class="form-control" type="file" id="formFile">
+      </div>
+    </form>
+  </div>
+
+  <!-- Imagenes -->
+  <div class="container">
+    <img src="./assets/img/hero-img.webp" class="img-fluid" alt="dr strange">
+    <img src="./assets/img/hero-img.webp" class="img-fluid rounded" alt="dr strange">
+    <img src="./assets/img/hero-img.webp" class="img-fluid rounded-circle" alt="dr strange">
+    <img src="./assets/img/hero-img.webp" class="img-fluid img-thumbnail" alt="dr strange">
+  </div>
+
+  <div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Estudiantes
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Santiago</a></li>
+        <li><a class="dropdown-item" href="#">Marco</a></li>
+        <li><a class="dropdown-item" href="#">Emiliano</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+  </div>
+
+  <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </nav>
+
+  <!-- script con el archivo JS de Boostrap en mi proyecto -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
