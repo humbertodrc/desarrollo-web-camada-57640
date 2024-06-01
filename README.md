@@ -3773,6 +3773,8 @@ Git es un sistema de control de versiones distribuido que se utiliza para rastre
 
 - git config —list: Muestra la configuración global de Git.
 
+- git config --global -e: Abre el archivo de configuración global de Git en un editor de texto. Para salir del editor, presiona la tecla Esc y escribe :wq.
+
 - git —version: Muestra la versión de Git instalada en el sistema.
 
 - git init: Inicializa un nuevo repositorio de Git en el directorio actual.
@@ -3786,6 +3788,10 @@ Git es un sistema de control de versiones distribuido que se utiliza para rastre
 - git checkout — .: Descarta los cambios en los archivos del directorio de trabajo.
 
 - git reset nombre archivo: Descarta los cambios en un archivo y lo elimina del área de preparación.
+
+- git branch -m master main: Cambia el nombre de la rama master a main.
+
+- git config --global init.defaultBranch main: Configura la rama predeterminada en Git como main.
 
 - git log: Muestra el historial de commits en el repositorio.
 
