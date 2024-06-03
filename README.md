@@ -3813,6 +3813,14 @@ Git es un sistema de control de versiones distribuido que se utiliza para rastre
 
 - git revert hash del commit: Revierte un commit específico en el repositorio.
 
+- git commit --amend -m "Mensaje de commit": Modifica el mensaje de un commit en el repositorio.
+
+- git reset --soft hash del commit: Restablece el repositorio al estado de un commit específico y mantiene los cambios en el área de preparación, util cuando se nos olvida agregar algo a un commit
+
+- git reset --soft HEAD^: Restablece el repositorio al estado del ultimo commit.
+
+- it reset --soft HEAD^2: Restablece el repositorio al estado del commit que se indique, en este caso se le pasa el numero 2 pero puede ser 2,3,4, etc.
+
 - git reset --hard hash del commit: Restablece el repositorio al estado de un commit específico.
 
 - git status -s: Muestra el estado de los archivos en el directorio de trabajo en forma de resumen.
