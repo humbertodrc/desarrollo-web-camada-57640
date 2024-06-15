@@ -1,0 +1,281 @@
+.condicional {
+  color: blue;
+}
+
+.m-1 {
+  margin: 10px;
+}
+
+.m-2 {
+  margin: 20px;
+}
+
+.m-3 {
+  margin: 30px;
+}
+
+.m-4 {
+  margin: 40px;
+}
+
+.m-5 {
+  margin: 50px;
+}
+
+.m-6 {
+  margin: 60px;
+}
+
+.m-7 {
+  margin: 70px;
+}
+
+.m-8 {
+  margin: 80px;
+}
+
+.m-9 {
+  margin: 90px;
+}
+
+.m-10 {
+  margin: 100px;
+}
+
+.m-11 {
+  margin: 110px;
+}
+
+.m-12 {
+  margin: 120px;
+}
+
+.m-l-1 {
+  margin-left: 10px;
+}
+
+.m-l-2 {
+  margin-left: 20px;
+}
+
+.m-l-3 {
+  margin-left: 30px;
+}
+
+.m-l-4 {
+  margin-left: 40px;
+}
+
+.m-l-5 {
+  margin-left: 50px;
+}
+
+.m-l-6 {
+  margin-left: 60px;
+}
+
+.m-l-7 {
+  margin-left: 70px;
+}
+
+.m-l-8 {
+  margin-left: 80px;
+}
+
+.m-l-9 {
+  margin-left: 90px;
+}
+
+.m-l-10 {
+  margin-left: 100px;
+}
+
+.pais-1 {
+  background-color: #2577cf;
+}
+
+.pais-2 {
+  background-color: #2577cf;
+}
+
+.pais-3 {
+  background-color: #2577cf;
+}
+
+.pais-4 {
+  background-color: #2577cf;
+}
+
+.pais-5 {
+  background-color: #2577cf;
+}
+
+.pais-6 {
+  background-color: #2577cf;
+}
+
+.pais-7 {
+  background-color: #2577cf;
+}
+
+.pais-8 {
+  background-color: #2577cf;
+}
+
+.pais-9 {
+  background-color: #2577cf;
+}
+
+.pais-10 {
+  background-color: #2577cf;
+}
+
+.text-color {
+  color: red;
+}
+
+.text-color {
+  color: blue;
+}
+
+.text-color {
+  color: green;
+}
+
+.text-color {
+  color: yellow;
+}
+
+.text-color {
+  color: orange;
+}
+
+.text-color {
+  color: purple;
+}
+
+.text-color {
+  color: pink;
+}
+
+.text-color {
+  color: brown;
+}
+
+.text-color {
+  color: black;
+}
+
+.text-color {
+  color: white;
+}
+
+.bg-primary {
+  background-color: #2577cf;
+}
+
+.bg-secondary {
+  background-color: #000;
+}
+
+.bg-success {
+  background-color: #28a745;
+}
+
+.pais-argentina {
+  background-color: #2577cf;
+  color: #000;
+}
+
+.pais-brasil {
+  background-color: #28a745;
+  color: #000;
+}
+
+.pais-chile {
+  background-color: #c72121;
+  color: #000;
+}
+
+.pais-uruguay {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.button, .button-secondary, .button-primary {
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: #2577cf;
+  color: #000;
+}
+
+.button-secondary {
+  background-color: #000;
+  color: #2577cf;
+}
+
+.card {
+  width: 300px;
+  height: 450px;
+  padding: 20px;
+  border-radius: 20px 5px 20px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-primary {
+  background-color: transparent;
+  color: #000;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  height: 450px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 20px 5px 20px 5px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 640px) {
+  .card {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1024px) {
+  .card {
+    width: 70%;
+    height: 500px;
+    background-color: #10ca19;
+  }
+}
+
+/*# sourceMappingURL=condicionales.css.map */

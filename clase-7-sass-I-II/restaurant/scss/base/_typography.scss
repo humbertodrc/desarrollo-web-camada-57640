@@ -1,0 +1,15 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-primary;
+  font-weight: 700;
+  color: $color-text;
+}
+
+p, a, li, span {
+  font-family: $font-family-secondary;
+  font-weight: 400;
+}
+
+p {
+  color: $color-text-secondary;
+  font-size: 16px;
+}

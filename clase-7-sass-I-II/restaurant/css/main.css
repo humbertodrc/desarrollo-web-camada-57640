@@ -11,16 +11,16 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: "David Libre", serif;
   font-weight: 700;
-  color: #101A24;
+  color: #101a24;
 }
 
 p, a, li, span {
-  font-family: "Inter", sans-serif;
+  font-family: "David Libre", serif;
   font-weight: 400;
 }
 
 p {
-  color: #5C6574;
+  color: #5c6574;
   font-size: 16px;
 }
 
@@ -35,11 +35,11 @@ p {
 }
 
 .primary {
-  background-color: #EA6D27;
+  background-color: #ea6d27;
 }
 
 .secondary {
-  background-color: #101A24;
+  background-color: #101a24;
 }
 
 .container-center {
@@ -60,6 +60,7 @@ p {
   align-items: center;
   gap: 45px;
 }
+
 .hero__container {
   padding-top: 60px;
   padding-bottom: 170px;
@@ -69,11 +70,13 @@ p {
   background-repeat: no-repeat;
   width: 100%;
 }
+
 .hero__section {
   display: flex;
   padding-top: 196px;
   gap: 100px;
 }
+
 .hero__content-container {
   margin-top: 20px;
 }
@@ -101,20 +104,19 @@ p {
 .hero__content-container .hero__footer-logos .hero__icons-container {
   display: flex;
   align-items: center;
+  gap: 17px;
   height: 45px;
   width: 169px;
 }
-
 .hero__content-container .hero__footer-logos .hero__line {
   height: 1px;
   width: 143px;
   background-color: #000;
 }
+
 .hero__image-container {
   position: relative;
 }
-
-
 .hero__image-container .hero__image {
   width: 100%;
 }
@@ -124,5 +126,4 @@ p {
   left: -196px;
 }
 
-/* nesting */
-
+/*# sourceMappingURL=main.css.map */
