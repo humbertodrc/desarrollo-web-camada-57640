@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 800px;
+  margin: 100px auto;
+  height: 500px;
+  border: 3px solid #000;
+}
+
+.item{
+  width: 100px;
+  height: 100px;
+  background-color: #4f4f4f;
+  border: 2px solid red;
+  font-size: 20px;
+  animation-name: animacion-ejemplo;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-in;
+  animation-duration: 10s;
+}
+
+
+@keyframes animacion-ejemplo {
+  0%{
+    width: 150px;
+    background: linear-gradient(to right, #4f4f4f, #000);
+  }
+
+  50%{
+    width: 800px;
+    background: linear-gradient(to right, #04dd28, #0c119f)
+  }
+
+  100%{
+    width: 100px;
+    background: radial-gradient(circle at top, #e66465, #4d9f0c);
+  }
+}
+
+span{
+  animation-name: text-animation;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+
+
+@keyframes text-animation{
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+
+}

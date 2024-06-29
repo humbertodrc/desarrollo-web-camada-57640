@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 2300px;
+  color: #333;
+  text-align: center;
+}
+
+main{
+  max-width: 800px;
+  margin: auto;
+}
+
+
+p{
+  font-size: 34px;
+  margin: 20px 0;
+  text-shadow: 0 0 10px #999;
+}
+
+h1{
+  font-size: 72px;
+}
+
+.img-logo{
+  width: 200px;
+  height: 150px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}

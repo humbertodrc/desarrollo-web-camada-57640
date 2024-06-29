@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aos</title>
+  <meta name="description" content="Pagina de prueba de libreria">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/aos.css">
+</head>
+
+<body>
+  <main class="main">
+    <p class="intro-text">Vamos a probar la libreria</p>
+
+    <h1 data-aos="fade-up">Bienvenidos!</h1>
+
+    <p data-aos="fade-right">Esto es un ejemplo de las animaciones fade-right</p>
+
+    <p data-aos="flip-right">Esto es un ejemplo de las animaciones flip-right que hacen aparecer los elementos que queremos</p>
+
+    <div style="height: 1500px;">
+
+    </div>
+
+    <div 
+      class="flex" 
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="3000"
+    >
+      <img src="img/200.gif" alt="gif">
+      <p>Tambien lo puedes hacer con imagenes y/o cambiar la duraccion</p>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
